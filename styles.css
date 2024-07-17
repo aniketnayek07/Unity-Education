@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.bg1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(31, 18, 179, 0.5);
+  z-index: 1;
+}
+/* nav-bar */
+.nav-bar {
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero-text:hover {
+  text-decoration: underline;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  right: 20%;
+  gap: 5px;
+}
+
+#name {
+  color: white;
+  font-weight: 900;
+  font-size: x-large;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.hero-text {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+}
+.Button-contact:hover {
+  text-decoration: underline;
+}
+.Button-contact {
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  color: rgba(31, 18, 179, 0.5);
+  font-weight: 900;
+  font-size: large;
+  width: 120px;
+  height: 50px;
+}
+
+/* Hero-section */
+.Hero-section {
+  display: flex;
+  flex-direction: column;
+  padding: 30vh;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#Quote {
+  color: white;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+}
+
+#Quote2 {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+.about {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  color: rgba(31, 18, 179, 0.5);
+  font-size: 20px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Academics or progrmmes section */
+#Academics {
+  margin-top: 40px;
+  color: #1f12b3;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.courses {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 20px;
+}
+
+.btech {
+  background-image: url("./images/uNITY_eDUcationbtech.png");
+  background-size: 100%;
+  object-fit: contain;
+  width: 300px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+.ballb {
+  background-image: url("./images/law.png");
+  background-size: 100%;
+  object-fit: cover;
+  width: 300px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+.bba {
+  background-image: url("./images/business.png");
+  background-size: 100%;
+  object-fit: cover;
+  width: 300px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+/* About us  */
+.about_us {
+  background-color: #d9d9d9;
+  padding: 30px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.about_conatiner {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.about_us img {
+  aspect-ratio: 1/1;
+  width: 350px;
+}
+
+/* GALLERY */
+.Gallery > p {
+  text-align: center;
+  color: #1f12b3;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.gallery-items1 {
+  background-image: url("./images/university.jpg");
+  background-size: 100%;
+  object-fit: contain;
+  height: 250px;
+}
+.gallery-items2 {
+  background-image: url("images/uni2.jpg");
+  background-size: 100%;
+  object-fit: contain;
+  height: 250px;
+}
+.gallery-items3 {
+  background-image: url("images/uni3.jpg");
+  background-size: 100%;
+  object-fit: contain;
+  height: 250px;
+}
+.gallery-items4 {
+  background-image: url("images/uni4.jpg");
+  background-size: 100%;
+  object-fit: contain;
+  height: 250px;
+}
+.gallery-items5 {
+  background-image: url("images/uni5.jpg");
+  background-size: 100%;
+  object-fit: contain;
+  height: 250px;
+}
+.gallery-items6 {
+  background-image: url("images/uni6.jpg");
+  background-size: 100%;
+  object-fit: contain;
+  height: 250px;
+}
+
+/* testimonials */
+.testimonials-text {
+  text-align: center;
+  color: #1f12b3;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.c {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  width: 70%;
+  max-width: 700px;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  height: 300px;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  /* padding-top: 200px;
+  margin-top: 200px; */
+}
+
+.carousel-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background-color: #717171;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: 100%;
+  padding: 0 20px;
+  gap: 50px;
+}
+
+.image-caro {
+  width: 400px;
+  height: 250px;
+  border: solid #1f12b3;
+  border-radius: 20px;
+}
+.testimonial-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1px;
+}
+.Name {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.Job {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+/* footer */
+.f {
+  background-color: rgba(217, 217, 217, 0.5);
+  padding-bottom: 40px;
+}
+.footer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+#footer-heading {
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  color: #1f12b3;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.footersection1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 50px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.svg-logo {
+  background-color: #1f12b3;
+  width: 60px;
+  height: 60px;
+  padding: 7px;
+}
+#uni-name {
+  color: #1f12b3;
+  font-weight: 800;
+  font-size: 20px;
+}
+#footer1-text {
+  font-size: medium;
+}
+.Contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-weight: 600;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-weight: 600;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-weight: 600;
+}
+.footersection2 {
+  padding-right: 50px;
+}
+#section2text {
+  font-weight: 500;
+  font-size: 20px;
+}
+.section2box {
+  line-height: 30px;
+}
+
+.box {
+  width: 40vw;
+  height: 40px;
+  background-color: #d9d9d9;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.submit {
+  border-radius: 10px;
+  background-color: #1f12b3;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  font-weight: 900;
+  font-size: large;
+  width: 120px;
+  height: 50px;
+}
